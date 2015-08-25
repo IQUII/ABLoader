@@ -16,7 +16,7 @@
 		45B8CF5D1B4A867C008E4502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B8CF5C1B4A867C008E4502 /* Images.xcassets */; };
 		45B8CF601B4A867C008E4502 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B8CF5E1B4A867C008E4502 /* LaunchScreen.xib */; };
 		45B8CF6C1B4A867C008E4502 /* ABLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8CF6B1B4A867C008E4502 /* ABLoaderTests.m */; };
-		45B8CF781B4A91F2008E4502 /* ABLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8CF771B4A91F2008E4502 /* ABLoaderView.m */; };
+		45CCC6C11B8CC5DF003AB742 /* ABLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CCC6C01B8CC5DF003AB742 /* ABLoaderView.m */; };
 		B7403587B34E3163281D1409 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 167E503640AE91476D605DC0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +47,8 @@
 		45B8CF651B4A867C008E4502 /* ABLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B8CF6A1B4A867C008E4502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B8CF6B1B4A867C008E4502 /* ABLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABLoaderTests.m; sourceTree = "<group>"; };
-		45B8CF761B4A91F2008E4502 /* ABLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABLoaderView.h; sourceTree = "<group>"; };
-		45B8CF771B4A91F2008E4502 /* ABLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLoaderView.m; sourceTree = "<group>"; };
+		45CCC6BF1B8CC5DF003AB742 /* ABLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABLoaderView.h; path = Library/ABLoaderView.h; sourceTree = SOURCE_ROOT; };
+		45CCC6C01B8CC5DF003AB742 /* ABLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABLoaderView.m; path = Library/ABLoaderView.m; sourceTree = SOURCE_ROOT; };
 		BF3DF814B286991D94FAB3BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C36B24950AEF03FB1AEE9632 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,8 +139,8 @@
 		45B8CF751B4A86BC008E4502 /* ABLoader lib */ = {
 			isa = PBXGroup;
 			children = (
-				45B8CF761B4A91F2008E4502 /* ABLoaderView.h */,
-				45B8CF771B4A91F2008E4502 /* ABLoaderView.m */,
+				45CCC6BF1B8CC5DF003AB742 /* ABLoaderView.h */,
+				45CCC6C01B8CC5DF003AB742 /* ABLoaderView.m */,
 			);
 			name = "ABLoader lib";
 			sourceTree = "<group>";
@@ -301,7 +301,7 @@
 			files = (
 				45B8CF581B4A867C008E4502 /* ExampleViewController.m in Sources */,
 				45B8CF551B4A867C008E4502 /* AppDelegate.m in Sources */,
-				45B8CF781B4A91F2008E4502 /* ABLoaderView.m in Sources */,
+				45CCC6C11B8CC5DF003AB742 /* ABLoaderView.m in Sources */,
 				45B8CF521B4A867C008E4502 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ABLoader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -442,7 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ABLoader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
