@@ -8,7 +8,7 @@ Installing
 
 [CocoaPods](http://cocoapods.org/) is the recommended way for adding ABLoader to your project. Import `ABLoader` and `MBProgressHUD`.
 
-    pod 'ABLoader', '~> 1.0'
+    pod 'ABLoader'
     pod 'MBProgressHUD', '~> 0.9.1'
 	
 
