@@ -3,7 +3,7 @@ ABLoader
 
 ABLoader is a view for your projects that you can use in place of your standard indicator when your app is processing a background thread. ABLoader works well in combination with [MBProgressHUD](https://github.com/jdg/MBProgressHUD).
 
-<iframe src="//giphy.com/embed/3o85xzyIPr7IufDL3i" width="240" height="425" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/loader-digital-agency-iquii-3o85xzyIPr7IufDL3i">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/3o85xzyIPr7IufDL3i/giphy.gif" alt="alt text" width="220">
 
 
 Installing
