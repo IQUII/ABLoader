@@ -15,7 +15,7 @@ Installing
 Usage
 -----
 
-Simply instantiate `ABLoaderView` with the desired dimension and image, and add it to MBProgressHUD..
+Simply instantiate `ABLoaderView` with the desired dimension and image, and add it to MBProgressHUD.
 
     #import <ABLoader/ABLoaderView.h>
     #import <MBProgressHUD/MBProgressHUD.h>
