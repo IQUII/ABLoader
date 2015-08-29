@@ -19,8 +19,8 @@
 }
 
 
--(void)setupSpinKitAnimationInLayer:(CALayer*)layer withSize:(CGSize)size color:(UIColor*)color image:(UIImage*)image duration:(float)duration;
-{
+-(void)setupSpinKitAnimationInLayer:(CALayer*)layer withSize:(CGSize)size color:(UIColor*)color image:(UIImage*)image duration:(float)duration{
+    
     CALayer *square = [CALayer layer];
     square.frame = CGRectInset(CGRectMake(0.0, 0.0, size.width, size.height), 2.0, 2.0);
     square.backgroundColor = color.CGColor;
@@ -37,7 +37,7 @@
     anim.repeatCount = HUGE_VALF;
     anim.duration = duration;
     anim.keyTimes = @[@(0.0), @(0.5), @(0.5), @(1.0)];
-
+    
     anim.values = @[
                     
                     [NSValue valueWithCATransform3D:RTSpinKit3DRotationWithPerspective(1.0/120.0, 0, 0, 0, 0)],

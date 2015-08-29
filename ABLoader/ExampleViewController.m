@@ -29,7 +29,7 @@
     hud.color=[UIColor clearColor];
     hud.customView = spinner;
     hud.backgroundColor=[UIColor colorWithWhite:0 alpha:0.6f];
-  //  hud.labelText = NSLocalizedString(@"Loading...", @"Loading");
+    //  hud.labelText = NSLocalizedString(@"Loading...", @"Loading");
     
 }
 
@@ -40,8 +40,8 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-//    sleep(10);
-//    [MBProgressHUD hideHUDForView:self.view animated:YES];
+    //    sleep(10);
+    //    [MBProgressHUD hideHUDForView:self.view animated:YES];
 }
 
 
